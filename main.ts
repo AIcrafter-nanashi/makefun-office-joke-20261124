@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const joke = "Finance rejected my train fare for a missing ticket, so I've asked the barrier that swallowed it to countersign the form.";
+const joke = "Finance: no ticket, no refund. Me: the barrier kept it. Finance: then get that in writing.";
 
 const outputDir = process.env.MAKEFUN_TEST_OUTPUT || '/output';
 const outputPath = path.join(outputDir, 'entry.txt');
